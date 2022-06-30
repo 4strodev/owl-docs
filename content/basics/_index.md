@@ -6,8 +6,7 @@ chapter = true
 pre = "<b>1. </b>"
 +++
 
-### Chapter X
+### Chapter 1
 
-# Let's start at the beginning
-
-Owl only needs a template to generate the project. The template can be in your computer or can be in a git repository.
+# Basics
+Let's take an introduction about owl basics.

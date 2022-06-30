@@ -5,3 +5,9 @@ theme = 'hugo-theme-learn'
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+author = "4strodev"
+description = "Owl is a simple library that helps you to make project generators"
+showVisitedLinks = true
+themeVariant = "green"
