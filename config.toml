@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://owl-docs.netlify.app/'
 languageCode = 'en-us'
 title = 'Owl docs'
 theme = 'hugo-theme-learn'
