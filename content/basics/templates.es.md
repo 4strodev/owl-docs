@@ -1,7 +1,7 @@
 ---
 title: "Plantillas"
 date: 2022-07-07T14:48:54+02:00
-draft: true
+draft: false
 ---
 
 ## ¿Que és una plantilla?

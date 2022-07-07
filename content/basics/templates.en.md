@@ -1,7 +1,7 @@
 ---
 title: "Templates"
 date: 2022-07-07T14:21:05+02:00
-draft: true
+draft: false
 ---
 
 ## What is a template?
