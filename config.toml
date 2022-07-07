@@ -2,6 +2,8 @@ baseURL = 'https://owl-docs.netlify.app/'
 languageCode = 'en-us'
 title = 'Owl docs'
 theme = 'hugo-theme-learn'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
@@ -10,4 +12,15 @@ home = [ "HTML", "RSS", "JSON" ]
 author = "4strodev"
 description = "Owl is a simple library that helps you to make project generators"
 showVisitedLinks = true
-themeVariant = "green"
+themeVariant = "red"
+
+[Languages]
+[Languages.en]
+title = "Owl documentation"
+weight = 1
+languageName = "English"
+
+[Languages.es]
+title = "Documentacion de owl"
+weight = 2
+languageName = "Español"
