@@ -1,14 +1,14 @@
 ---
-title: "Plantillas"
-date: 2022-07-07T14:48:54+02:00
+title: "Templates"
+date: 2022-07-07T14:21:05+02:00
 draft: false
 ---
 
-## ¿Que és una plantilla?
+## What is a template?
 A template is a group of files and folders agrouped inside a root folder.
 
-## ¿Que contiene un plantilla?
-Una plantilla contiene 3 tipos de elementos.
+## What a template contains?
+A template contains 3 types of elements.
 
 - Template specific files:
     - **owl_config.toml**
@@ -20,9 +20,9 @@ Una plantilla contiene 3 tipos de elementos.
 
 - #### owl_config.toml
 This file is used by owl to read scripts inside this template in future versions may be used
-to save some extra configuration.
+to save some extra configuration. It can be a: **toml, yaml and json**.
 
-**Ejemplo**
+**Example**
 {{< tabs groupId="config" >}}
 {{% tab name="toml" %}}
 ```toml
@@ -80,10 +80,10 @@ See [here]() for more details
 {{% /notice%}}
 
 - #### .owlignore
-While owl is copying files inside the root project folder may you want to avoid copy some
+While owl is copying files inside the project folder may you want to avoid copy some
 files from template. In this file you will save the files and folders that you don't want to copy.
 
-**Ejemplo**
+**Example**
 ```
 .git/
 *.sh # glob regex

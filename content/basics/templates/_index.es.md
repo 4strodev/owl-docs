@@ -1,28 +1,29 @@
 ---
-title: "Templates"
-date: 2022-07-07T14:21:05+02:00
+title: "Plantillas"
+date: 2022-07-07T14:48:54+02:00
 draft: false
 ---
 
-## What is a template?
-A template is a group of files and folders agrouped inside a root folder.
+## ¿Que és una plantilla?
+Una plantilla es un grupo de archivos i carpetas agrupados en una carpeta raíz.
 
-## What a template contains?
-A template contains 3 types of elements.
+## ¿Que contiene un plantilla?
+Una plantilla contiene 3 tipos de elementos.
 
-- Template specific files:
+- Archivos especificos de la plantilla:
     - **owl_config.toml**
     - **.owlignore**
-- Files
-- Folders
+- Archivos
+- Carpetas
 
-### Template specific files
+### Archivos especificos de la plantilla
 
 - #### owl_config.toml
-This file is used by owl to read scripts inside this template in future versions may be used
-to save some extra configuration.
+Este archivo lo usa owl para leer los scripts dentro de la plantilla,
+en el futuro puede que se use para guardar mas información. Puede ser
+tanto un archivo: **toml, yaml y json**
 
-**Example**
+**Ejemplo**
 {{< tabs groupId="config" >}}
 {{% tab name="toml" %}}
 ```toml
@@ -76,19 +77,19 @@ scripts:
 {{< /tabs >}}
 
 {{% notice note%}}
-See [here]() for more details
+Consulte [aquí]() para mas detalles
 {{% /notice%}}
 
 - #### .owlignore
-While owl is copying files inside the root project folder may you want to avoid copy some
-files from template. In this file you will save the files and folders that you don't want to copy.
+Mientras owl copia archivos dentro de la carpeta de proyecto quizas querras evitar copiar
+algunos archivos de la plantilla. En este archivos estaran los archivos y carpetas que no quieres copiar.
 
-**Example**
+**Ejemplo**
 ```
 .git/
 *.sh # glob regex
 ```
 
 {{% notice note%}}
-See [here]() for more details
+Consulte [aquí]() para mas detalles
 {{% /notice%}}

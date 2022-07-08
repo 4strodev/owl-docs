@@ -9,13 +9,13 @@ date: 2022-06-30T12:43:53+02:00
 independientemente del lenguage de pgroamacion**.
 
 <!--TODO add corresponding links-->
-## Main features
+## Características principales
 - Basado en plantillas (locales o remotas)
 - Ignora archivos con `.owlignore`
 - Ejecuta comandos personalizados
 - El archivo de configuracion puede ser escrito en json, yaml, toml gracias a [Viper](https://github.com/spf13/viper)
 
-## Example
+## Ejemplo
 ```go
 package main
 
@@ -83,5 +83,5 @@ func main() {
 ```
 
 {{% notice info %}}
-Si te gustaría aprender a hacer tus propias plantillas [mira aquí]().
+Si te gustaría aprender a hacer tus propias plantillas [mira aquí]()
 {{% /notice %}}
