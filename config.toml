@@ -9,6 +9,7 @@ defaultContentLanguageInSubdir = true
 home = [ "HTML", "RSS", "JSON" ]
 
 [params]
+editURL = "https://github.com/4strodev/owl-docs/edit/main/content/"
 author = "4strodev"
 description = "Owl is a simple library that helps you to make project generators"
 showVisitedLinks = true
