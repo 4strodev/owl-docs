@@ -1,7 +1,7 @@
 baseURL = 'https://owl-docs.netlify.app/'
 languageCode = 'en-us'
 title = 'Owl docs'
-theme = 'hugo-theme-learn'
+theme = 'hugo-theme-relearn'
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
@@ -13,7 +13,7 @@ editURL = "https://github.com/4strodev/owl-docs/edit/main/content/"
 author = "4strodev"
 description = "Owl is a simple library that helps you to make project generators"
 showVisitedLinks = true
-themeVariant = "red"
+themeVariant = [ "relearn-light", "relearn-dark", "green", "red", "blue" ]
 
 [Languages]
 [Languages.en]

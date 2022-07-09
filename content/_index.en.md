@@ -82,6 +82,8 @@ func main() {
 }
 ```
 
+    go run .
+
 {{% notice info %}}
-If you would like to know how to make your custom templates [see here]().
+If you would like to know how to make your custom templates [see here]( {{.Page.Site.BaseURL}} ).
 {{% /notice %}}
