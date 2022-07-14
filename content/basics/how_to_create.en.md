@@ -2,13 +2,13 @@
 title: "How to create a template"
 date: 2022-07-08T16:18:11+02:00
 draft: false
-weight: 3
+weight: 30
 ---
 
 To create a template you need a public git repository and a text editor.
 
 {{% notice info %}}
-This example is goint to be an application with go and fiber
+This example is goint to be an application with go and fiber.
 {{% /notice %}}
 
 ## Setup
@@ -83,3 +83,6 @@ init_module = ["go mod init {{ .ModuleName }}", "go get github.com/gofiber/fiber
 .git
 README.md
 ```
+
+## Push to github
+Then you can push to a github repo and use this template with their url.

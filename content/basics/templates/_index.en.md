@@ -2,8 +2,10 @@
 title: "Templates"
 date: 2022-07-07T14:21:05+02:00
 draft: false
-weight: 2
+weight: 20
 ---
+
+Owl is a template based library. But first...
 
 ## What is a template?
 A template is a group of files and folders agrouped inside a root folder.
@@ -77,7 +79,7 @@ scripts:
 {{< /tabs >}}
 
 {{% notice note%}}
-See [here]() for more details
+See [here](/en/basics/templates/scripts/) for more details.
 {{% /notice%}}
 
 - #### .owlignore
@@ -91,5 +93,5 @@ files from template. In this file you will save the files and folders that you d
 ```
 
 {{% notice note%}}
-See [here]() for more details
+See [here](/en/basics/templates/ignore) for more details.
 {{% /notice%}}

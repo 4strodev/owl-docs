@@ -14,6 +14,7 @@ author = "4strodev"
 description = "Owl is a simple library that helps you to make project generators"
 showVisitedLinks = true
 themeVariant = [ "relearn-light", "relearn-dark", "green", "red", "blue" ]
+collapsibleMenu = true
 
 [Languages]
 [Languages.en]
