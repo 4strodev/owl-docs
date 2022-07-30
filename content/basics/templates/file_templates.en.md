@@ -1,5 +1,5 @@
 ---
-title: "file templates"
+title: "File templates"
 date: 2022-07-30T13:59:20+02:00
 draft: false
 weight: 30
